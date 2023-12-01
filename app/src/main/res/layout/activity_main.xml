@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/tv_1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="240dp"
+        android:gravity="center"
+        android:text="LFS"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        />
+
+    <EditText
+        android:id="@+id/et_1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="用户名"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:maxLines="1"
+        android:padding="5dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <EditText
+        android:id="@+id/et_2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="密 码"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:maxLines="1"
+        android:padding="5dp"
+        android:inputType="textPassword"
+        android:layout_marginTop="10dp"
+        />
+    <Button
+        android:id="@+id/btn_Login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="登陆"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/bg_username"
+        />
+
+    <Button
+        android:id="@+id/button_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="注册"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_username"
+        />
+
+</LinearLayout>
